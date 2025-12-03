@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.main1 {
+    width: 450px;
+    background-color: white;
+    margin: 40px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 12px black;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+.main2 input {
+    width: auto;
+    margin-right: 6px;
+}
+
+.main3 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button[type="submit"], button[type="reset"] {
+    width: 45%;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="reset"] {
+    background: grey;
+}
+
+input[type="submit"]:hover {
+    background: blue;
+}
+
+input[type="reset"]:hover {
+    background: grey;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+table,td{
+    border:1px solid black;
+    border-collapse:collapse;
+    padding:10px;
+    }
