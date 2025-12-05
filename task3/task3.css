@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+.main{
+    display: grid;
+    gap: 5px;
+    padding: 20px;
+}
+.header{
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    height: 100px;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.middle{
+    height: 200px;
+    background-color: white;
+    display: flex;
+    border: 1px;
+    gap: 5px;
+}
+.left{
+    width: 20%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.right{
+    width: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.sub1{
+    height: 50%;
+    width:100%;
+    background-color:green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.sub2{
+    height: 50%;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.sub2d1{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+}
+.sub2d2{
+    width: 50%;
+    height: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
