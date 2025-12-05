@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+}
+.main1{
+    display: grid;
+    gap: 10px;
+    padding: 100px;
+}
+.header{
+    height: 50px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    height: 50px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mid1{
+    height: 300px;
+    background-color: white;
+    display: flex;
+    gap: 10px;
+}
+.left{
+    background-color: aliceblue;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.hero{
+    background-color: blueviolet;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.sidebar{
+    background-color: lightgreen;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.right{
+    background-color: aliceblue;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.main{
+    background-color: yellow;
+    height: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.extra{
+    background-color: darkmagenta;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.mid2{
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    gap: 10px;
+}
+.images{
+    background-color: green;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.posts{
+    background-color: rosybrown;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
